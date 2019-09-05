@@ -1,0 +1,15 @@
+﻿@model EmotionPlatzi.Web.Models.Home
+
+@{
+    Layout = "~/Views/Shared/_MyLayout.cshtml"; //Las rutas que empiezan con circunflejo, hacen referencia a que son relativas a la carpeta de inicio de la aplicacion
+}
+
+<div>
+    <h2>@Model.WelcomeMessage</h2>
+    <h4>@Model.FooterMessage</h4>
+</div>
+
+@section scripts{
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+}
