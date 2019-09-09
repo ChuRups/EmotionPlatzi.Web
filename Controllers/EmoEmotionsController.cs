@@ -82,7 +82,7 @@ namespace EmotionPlatzi.Web.Controllers
         // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Score,EmoFaceId,EmotioType")] EmoEmotion emoEmotion)
+        public ActionResult Edit([Bind(Include = "Id,Score,EmoFaceId,EmotionType")] EmoEmotion emoEmotion)
         {
             if (ModelState.IsValid)
             {

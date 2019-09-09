@@ -73,5 +73,11 @@ namespace EmotionPlatzi.Web.Util
 
             return emotionList;
         }
+
+
+
+
+
+
     }
 }
